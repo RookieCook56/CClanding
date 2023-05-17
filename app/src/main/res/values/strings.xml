@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Catch Coupon</string>
+    <string name="loginbtn">Login</string>
+    <string name="registerbtn">Register</string>
+</resources>

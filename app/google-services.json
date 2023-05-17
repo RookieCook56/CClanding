@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "228793475765",
+    "project_id": "catchcoupon-b7585",
+    "storage_bucket": "catchcoupon-b7585.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:228793475765:android:029c64c07c3160823ad4fc",
+        "android_client_info": {
+          "package_name": "com.example.cclanding"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "228793475765-so4sb2r4cpippi869jfeboebbhabnm9n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcZ7zdRa9XgsI5tzlu7w7wwq3SMKkJGNc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "228793475765-so4sb2r4cpippi869jfeboebbhabnm9n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
