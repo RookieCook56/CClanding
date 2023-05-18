@@ -16,16 +16,14 @@ class register : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_register)
 
-        val redirectlogin = findViewById<Button>(R.id.rdrlg)
-        redirectlogin.setOnClickListener {
 
-            val Intent = Intent(this, Login::class.java)
-            startActivity(Intent)
-        }
 
         binding = ActivityRegisterBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
+        binding.rdrlg.setOnClickListener{
+            val intent = Intent(this, Login::class.java)
+            startActivity(intent)
+        }
         firebaseAuth = FirebaseAuth.getInstance()
 
         binding.signupbtn.setOnClickListener {

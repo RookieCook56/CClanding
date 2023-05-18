@@ -13,7 +13,7 @@ import com.google.firebase.auth.FirebaseAuth
 class Login : AppCompatActivity() {
     private lateinit var binding: ActivityLoginBinding
             private lateinit var firebaseAuth: FirebaseAuth
-    @SuppressLint("MissingInflatedId")
+    @SuppressLint("MissingInflatedId", "SuspiciousIndentation")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
