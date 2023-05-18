@@ -28,6 +28,12 @@ class Login : AppCompatActivity() {
             startActivity(intent)
         }
 
+        binding.homebtn2.setOnClickListener{
+            val intent = Intent(this, landingpage::class.java)
+            startActivity(intent)
+        }
+
+
         binding.loginbtn.setOnClickListener{
             val email = binding.emailinput.text.toString()
             val pass = binding.passinput.text.toString()

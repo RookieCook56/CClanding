@@ -24,6 +24,13 @@ class register : AppCompatActivity() {
             val intent = Intent(this, Login::class.java)
             startActivity(intent)
         }
+
+
+        binding.homebtn.setOnClickListener{
+            val intent = Intent(this, landingpage::class.java)
+            startActivity(intent)
+        }
+
         firebaseAuth = FirebaseAuth.getInstance()
 
         binding.signupbtn.setOnClickListener {
